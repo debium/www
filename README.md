@@ -3,11 +3,16 @@
 
 My personal GitLog, with RSS feed and all!
 
-You can check it out [Here](https://github.ethertyper.com)!
-
 [![Join the chat at https://gitter.im/EtherTyper/www](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/EtherTyper/www?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/EtherTyper/www.svg)](https://travis-ci.org/EtherTyper/www)
 ![License](https://img.shields.io/badge/license-MIT-red.svg)
+
+#Where can I check out this wonderful repo in action? Surely, I don't have to clone it?
+You can check it out [Here](https://github.ethertyper.com)! However, if you need it on the go, you'd better clone it. Consider it as if the "gh-pages" branch was instead named "develop".
+#Changes to site? Suggestions?
+Just click the button in the top right are labeled "Fork", make your changes, implement your ideas, and give me a pull request. Piece of cake. Please be aware that your changes are MIT License if you commit them to this repo.
+
+
 # The MIT License (MIT)
 Copyright (c) 2015 Individual Contributors
 
