@@ -3,6 +3,8 @@
 
 My personal GitLog, with RSS feed and all!
 
+You can check it out [Here](https://github.ethertyper.com)!
+
 [![Join the chat at https://gitter.im/EtherTyper/www](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/EtherTyper/www?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/EtherTyper/www.svg)](https://travis-ci.org/EtherTyper/www)
 ![License](https://img.shields.io/badge/license-MIT-red.svg)
