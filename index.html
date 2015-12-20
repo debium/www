@@ -1,4 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- BrowserCheck credit Michael Bleidistel !-->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
@@ -30,6 +31,18 @@
       <div id="leftbar">
         <h2>Hello GitHub!</h2>
         <p>This is a place to share ideas about anything! Need help on an Internet based project? Want to make a Minecraft mod? Design a cryptocurrency? Do them all in one? You've came to the right place, kind sir or lady. This is a place for free technological, creative, and logical thinking. Feel welcome on my site, send me a pull request, and I'll gladly consider your ideas!</p>
+        <script>
+function BrowserCheck() //Returns an array of [name,number]
+{
+    var N= navigator.appName, ua= navigator.userAgent, tem;
+    var M= ua.match(/(opera|chrome|safari|firefox|msie|trident)\/?\s*(\.?\d+(\.\d+)*)/i);
+    if(M && (tem= ua.match(/version\/([\.\d]+)/i))!= null) {M[2]=tem[1];}
+    M= M? [M[1], M[2]]: [N, navigator.appVersion,'-?'];
+    return M;
+}
+document.getElementById("browser").innerHTML = ("Even users of "+BrowserCheck()[0]+" "+BrowserCheck()[1]+"!"); //returns name and number
+</script>
+        <p id="browser"></p>
         <br />
         <!--
         <p>Nulla sit amet magna non enim posuere porttitor. Vestibulum ante. Nam et nulla vestibulum libero facilisis aliquet. Vivamus ante velit, facilisis eu, pulvinar nec, ultricies vel, sem. Morbi ac velit. Sed est. Proin vehicula. Maecenas ac pede. Fusce rhoncus. Maecenas at quam. Aenean nunc felis, elementum vel, faucibus vitae, nonummy et, tellus. Nulla auctor venenatis urna. Donec accumsan urna sed libero. Fusce at mi eu leo sollicitudin adipiscing. Ut metus purus, gravida nec, scelerisque quis, venenatis non, ante. Aliquam a leo vel libero tempus scelerisque. Morbi iaculis. Ut libero. </p>
