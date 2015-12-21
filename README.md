@@ -26,3 +26,13 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+# __IMPORTANT NOTICE__
+If this notice is still here, you are viewing the _CHRISTMAS COMMIT_. It is specially styled for the season of Jesus's birth, so _PLEASE_ do not use this as a www reference implementation.
+
+That said, much of the changes here are serious changes, to be implemented in future commits. Only some will completely vanish afterwards.
+
+For example, the GitBook will stay, while its cover will change to exclude the Christmas hat. I apologize that only the next commit will appear with a complete www implementation. However, it's Christmas, and I wanted to do something fun. So, enjoy this special Christmas build.
+
+Thanks to my viewers and :octocat: for the understanding attitude,
+Eli
