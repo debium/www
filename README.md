@@ -12,7 +12,8 @@ You can check it out [Here](https://github.ethertyper.com)! However, if you need
 #Changes to site? Suggestions?
 Just click the button in the top right are labeled "Fork", make your changes, implement your ideas, and give me a pull request. Piece of cake. Please be aware that your changes are MIT License if you commit them to this repo.
 
-
+# About the GitBook.
+My GitBook, also called www, is hosted in this repository. It's about my experiences with online tools like git and Bitcoin, how they're causing a revolutioj, and why you should be a part of it.
 # The MIT License (MIT)
 Copyright (c) 2015 Individual Contributors
 
