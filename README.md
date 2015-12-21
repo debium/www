@@ -13,10 +13,10 @@ You can check it out [Here](https://github.ethertyper.com)! However, if you need
 Just click the button in the top right are labeled "Fork", make your changes, implement your ideas, and give me a pull request. Piece of cake. Please be aware that your changes are MIT License if you commit them to this repo.
 
 # About the GitBook.
-My GitBook, also called www, is hosted in this repository. It's about my experiences with online tools like git and Bitcoin, how they're causing a revolution, and why you should be a part of it. Its full name will be:
+My GitBook, AKA www, is also hosted in this repository. It's about my experiences with online tools like git and Bitcoin, how they're causing a revolution, and why you should be a part of it. Its full name will be:
 > 'www: A Tale of Adventures in The New Age'
 
-A full copy will be available soon on GitBook, so keep on the look out! But, for now, you can fork the repo and setup a GitBook there, as a form of mirror. The MIT License allows you to do that and read on early. That is, if you're not reading this from the book already!
+Thanks for waiting so long! The GitBook is finally compiling, but is not yet finished. You can check it out [here](https://ethertyper.gitbooks.io/www/content/)! That is, if you're not reading this from the book already!
 
 # The MIT License (MIT)
 Copyright (c) 2015 Individual Contributors
