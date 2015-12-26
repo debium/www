@@ -7,5 +7,6 @@ Another, smaller, request is for all of you to have your commit messages be pres
 
 And finally, I would like to stress the most important of all of these requirements:
 
-# _**DON'T MESS WITH TEXAS*_
+# _**DON'T MESS WITH TEXAS**_
+
 <script src="https://embed.github.com/view/geojson/ethertyper/www/gh-pages/TEXAS.geojson"></script>
