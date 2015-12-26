@@ -9,4 +9,6 @@ And finally, I would like to stress the most important of all of these requireme
 
 # _**DON'T MESS WITH TEXAS**_
 
+<div>
 <script src="https://embed.github.com/view/geojson/ethertyper/www/gh-pages/TEXAS.geojson"></script>
+</div>
