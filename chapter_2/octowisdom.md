@@ -189,3 +189,6 @@ If you want to build the Python 3 version included in [my gist](tinyurl.com/Octo
 $ 2to3 -w Octowisdom.py && mv Octowisdom.py Octowisdom3.py && mv Octowisdom.py.bak Octowisdom2.py
 ```
 
+This just goes to show you: You _**should really**_ check your work before you continue. When I wrote the gist at first, I had to deal with download status, 301s, and incorrect newline printing all in one go. I had _**no idea**_ where to start fixing my mistakes.
+
+Anyways, see you next tutorial on 
