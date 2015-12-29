@@ -194,6 +194,9 @@ And you can make Octocat give you coding tips on startup by running:
 ```
 $ echo python Octowisdom2.py > .bash_profile
 ```
+It'll appear something like this:
+
+![Octowisdom on startup](../Octowisdom.png)
 
 This just goes to show you: You _**should really**_ check your work before you continue. When I wrote the gist at first, I had to deal with download status, 301s, and incorrect newline printing all in one go. I had _**no idea**_ where to start fixing my mistakes.
 
