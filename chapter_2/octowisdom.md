@@ -1,5 +1,5 @@
 <h1>Chapter 2: Octowisdom
-<img src="https://octodex.github.com/images/original.png" height="50"/>
+<img src="https://octodex.github.com/images/original.png" height="30"/>
 </h1>
 We've all attempted some sort of version control, whether our memory, a private system, git, or another. Management is an important skill, but when it comes down to it, knowing the system that you _do_ have to work with is important. Today, I'm just going to show you a bit about my new code, Octowisdom, and how I worked out its kinks.
 
