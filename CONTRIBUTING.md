@@ -5,6 +5,8 @@ One of the major points I would like to stress is my _**wish**_ for you not to r
 
 Another, smaller, request is for all of you to have your commit messages be present tense commands, e.g. "Just screw it", at the same time as having them informative of what patching in your branch will do for the project. A good example would be "Make JSON pie". It tells what it will do in an easy, informative fashion.
 
+One other thing is to please, if combining changes, label the commit "first change/ second change". This combined change message can be substituted for the first if it is a poly-change commit.
+
 And finally, I would like to stress the most important of all of these requirements:
 
 # _**DON'T MESS WITH TEXAS**_
