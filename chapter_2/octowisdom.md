@@ -71,6 +71,7 @@ If you run and print that in the interactive Python compiler, you'll quickly rea
 
 Awesome! Now we can process zen as a string in Python! Let's write the code to pipe it into octocatsay! It should look something like this:
 ```python
+>>> commands.getoutput('curl -s https://api.github.com/octocat?s='+commands.getoutput('curl -s https://api.github.com/zen'))
 '\n               MMM.           .MMM\n               MMMMMMMMMMMMMMMMMMM\n               MMMMMMMMMMMMMMMMMMM      ________\n              MMMMMMMMMMMMMMMMMMMMM    |        |\n             MMMMMMMMMMMMMMMMMMMMMMM   | Design |\n            MMMMMMMMMMMMMMMMMMMMMMMM   |_   ____|\n            MMMM::- -:::::::- -::MMMM    |/\n             MM~:~   ~:::::~   ~:~MM\n        .. MMMMM::. .:::+:::. .::MMMMM ..\n              .MM::::: ._. :::::MM.\n                 MMMM;:::::;MMMM\n          -MM        MMMMMMM\n          ^  M+     MMMMMMMMM\n              MMMMMMM MM MM MM\n                   MM MM MM MM\n                   MM MM MM MM\n                .~~MM~MM~MM~MM~~.\n             ~~~~MM:~MM~~~MM~:MM~~~~\n            ~~~~~~==~==~~~==~==~~~~~~\n             ~~~~~~==~==~==~==~~~~~~\n                 :~==~==~==~==~~\n<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body bgcolor="white">\r\n<center><h1>301 Moved Permanently</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body bgcolor="white">\r\n<center><h1>301 Moved Permanently</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r'
 ```
 
@@ -148,7 +149,7 @@ Oh! It doesn't realize these spaces are part of the URL! It gets Octocat saying 
 
 Luckily, Python has a built-in function specifically for that. String.replace(sub,other) will return an altered version of String with all instances of sub replaced by other. Let's try the code with this in mind: 
 ```python
->>> print(commands.getoutput("curl -s https://api.github.com/octocat?s="+commands.getoutput('curl -s https://api.github.com/zen').replace(" ","%20")));
+>>> print(commands.getoutput('curl -s https://api.github.com/octocat?s='+commands.getoutput('curl -s https://api.github.com/zen').replace(' ','%20')));
 
                MMM.           .MMM
                MMMMMMMMMMMMMMMMMMM
@@ -179,7 +180,7 @@ It works! Now, if you want to save your script, we should finish the code with a
 Octowisdom.py
 =============
 import commands;
-print(commands.getoutput("curl -s https://api.github.com/octocat?s="+commands.getoutput('curl -s https://api.github.com/zen').replace(" ","%20")));
+print(commands.getoutput('curl -s https://api.github.com/octocat?s='+commands.getoutput('curl -s https://api.github.com/zen').replace(' ','%20')));
 quit();
 ```
 
@@ -194,6 +195,7 @@ And you can make Octocat give you coding tips on startup by running:
 ```
 $ echo python Octowisdom2.py > .bash_profile
 ```
+
 It'll appear something like this:
 
 ![Octowisdom on startup](../Octowisdom.png)
