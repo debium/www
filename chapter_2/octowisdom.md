@@ -10,13 +10,13 @@ Octocatsay is an imitation of cowsay from a GitHub fan, and I laughed at the pro
 I decided to make a simple POC type program that piped GitHub zen into Octocatsay and then print the end result to the users. I knew that the original zen command would look something like this:
 
 ```
-curl https://api.github.com/zen
+$ curl https://api.github.com/zen
 ```
 
 And that the format for specifying Octocatsay messages was:
 
 ```
-curl https://api.github.com/octocat?s=HELLO%20WORLD
+$ curl https://api.github.com/octocat?s=HELLO%20WORLD
 ```
 
 To produce something like this:
@@ -173,4 +173,19 @@ Luckily, Python has a built-in function specifically for that. String.replace(su
                  :~==~==~==~==~~
 ```
 
-It works!
+It works! Now, if you want to save your script, we should finish the code with a quit():
+
+```python
+Octowisdom.py
+=============
+import commands;
+print(commands.getoutput("curl -s https://api.github.com/octocat?s="+commands.getoutput('curl -s https://api.github.com/zen').replace(" ","%20")));
+quit();
+```
+
+If you want to build the Python 3 version included in [my gist](tinyurl.com/Octowisdom), you can now run:
+
+```
+$ 2to3 -w Octowisdom.py && mv Octowisdom.py Octowisdom3.py && mv Octowisdom.py.bak Octowisdom2.py
+```
+
