@@ -5,7 +5,7 @@ We've all attempted some sort of version control, whether our memory, a private 
 
 I was bored, surfing the GitHub, and looking for something to do or make, when I ran across a fun program called Octocatsay. I had already found out about the GitHub API, being a developer, and was studying some of the more important systems, for managing repositories and users from the command line.
 
-Octocatsay is an imitation of cowsay from a GitHub fan, and I laughed at the project. It sounded like I would have a lot of fun it, and it just made it better when I realized that it was hosted on the GitHub API! My native GitHub apps could use this software, no extra dependencies required...
+Octocatsay is an imitation of cowsay from a GitHub fan, and I laughed at the project. It sounded like I would have a lot of fun with it, and it just made it better when I realized that it was hosted on the GitHub API! My native GitHub apps could use this software, no extra dependencies required...
 
 I decided to make a simple POC type program that piped GitHub zen into Octocatsay and then print the end result to the users. I knew that the original zen command would look something like this:
 
@@ -184,7 +184,7 @@ print(commands.getoutput('curl -s https://api.github.com/octocat?s='+commands.ge
 quit();
 ```
 
-If you want to build the Python 3 version included in [my gist](tinyurl.com/Octowisdom), you can now run:
+If you want to build the Python 3 version included in [my gist](https://tinyurl.com/Octowisdom), you can now run:
 
 ```
 $ 2to3 -w Octowisdom.py && mv Octowisdom.py Octowisdom3.py && mv Octowisdom.py.bak Octowisdom2.py
