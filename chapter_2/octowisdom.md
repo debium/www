@@ -76,7 +76,7 @@ Awesome! Now we can process zen as a string in Python! Let's write the code to p
 
 Wut. There's a ton of '\n' characters. Maybe they would show up more literally if we pipe it into a print(string) function?
 
-```
+```python
 >>> print(commands.getoutput('curl -s https://api.github.com/octocat?s='+commands.getoutput('curl -s https://api.github.com/zen')))
 
                MMM.           .MMM
