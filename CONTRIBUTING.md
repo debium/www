@@ -9,7 +9,7 @@ One other thing is to please, if combining changes, label the commit "first chan
 
 And finally, I would like to stress the most important of all of these requirements:
 
-# _**DON'T MESS WITH TEXAS**_
+### _**DON'T MESS WITH [TEXAS](TEXAS.geojson)!!!!**_
 
 <div>
 <script src="https://embed.github.com/view/geojson/ethertyper/www/gh-pages/TEXAS.geojson" />
