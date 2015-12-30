@@ -140,7 +140,7 @@ Wut. There's a ton of '\n' characters. Maybe they would show up more literally i
 
 Yay! It works! Partially. As you can see, we're getting _**tons**_ of nginx 301s, and the Octocat doesn't even say the full sentence. The actual identity of these 301s doesn't matter, as the trouble is not hard to figure out. If you convert it to a print statement, you can see the command that directly produced the errors, like so:
 
-```
+```python
 >>> print('curl -s https://api.github.com/octocat?s='+commands.getoutput('curl -s https://api.github.com/zen')) 
 curl -s https://api.github.com/octocat?s=Practicality beats purity.
 ```
