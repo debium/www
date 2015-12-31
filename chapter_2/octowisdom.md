@@ -7,7 +7,7 @@ I was bored, surfing the GitHub, and looking for something to do or make, when I
 
 Octocatsay is an imitation of cowsay from a GitHub fan, and I laughed at the project. It sounded like I would have a lot of fun with it, and it just made it better when I realized that it was hosted on the GitHub API! My native GitHub apps could use this software, no extra dependencies required...
 
-I decided to make a simple POC type program that piped GitHub zen into Octocatsay and then print the end result to the users. I knew that the original zen command would look something like this:
+I decided to make a simple POC type program that piped GitHub zen into Octocatsay and then printed the end result to the users. I knew that the original zen command would look something like this:
 
 ```
 $ curl https://api.github.com/zen
