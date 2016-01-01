@@ -101,7 +101,7 @@ We all stand on the shoulders of giants across many open source communities.  We
 * [Geek Feminism](http://geekfeminism.org/about/code-of-conduct/)
 * [Citizen Code of Conduct](http://citizencodeofconduct.org/)
 
-# __IMPORTANT NOTICE__
+# __CHRISTMAS NOTICE__
 If this notice is still here, you are viewing the _CHRISTMAS COMMIT_. It is specially styled for the season of Jesus's birth, so _PLEASE_ do not use this as a www reference implementation.
 
 That said, much of the changes here are serious changes, to be implemented in future commits. Only some will completely vanish afterwards.
