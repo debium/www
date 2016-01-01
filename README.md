@@ -1,3 +1,6 @@
+---
+title: README, fellow GitHubbers!
+---
 # www
 
 My personal GitLog, with RSS feed and all!
