@@ -1,3 +1,7 @@
+---
+title: README, fellow GitHubbers!
+layout: post
+---
 # www
 
 My personal GitLog, with RSS feed and all!
