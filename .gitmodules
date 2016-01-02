@@ -1,3 +1,3 @@
-[submodule "Naut-for-reddit"]
-	path = Naut-for-reddit
+[submodule "Naut"]
+	path = Naut
 	url = https://github.com/Axel--/Naut-for-reddit.git
