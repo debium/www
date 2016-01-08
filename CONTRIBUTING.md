@@ -7,7 +7,7 @@ Another, smaller, request is for all of you to have your commit messages be pres
 
 One other thing is to please, if combining changes, label the commit "first change/ second change". This combined change message can be substituted for the first if it is a poly-change commit.
 
-And, simply to protect my legal rights, (and my awesomeness), before contributing to this repository, you _**MUST**_ agree to the following legalese:
+And, simply to protect my legal rights, (and my awesomeness), before contributing to this repository, you _**MUST**_ agree to the following Contribution License:
 
 ```
 Content:
@@ -20,8 +20,8 @@ Section IV: Awesomeness
 pushing to the repository "www.git". (II) I acknowledge Eli Bradley's and other contributors' copyrights to the
 project, including that of bots such as the "gitter-badger". (III) I maintain that all contributions to the
 repository that I produce, including in the forms of pushes, pull requests, issues, comments, any self
-produced content linked via camo.githubusercontent.com, or otherwise any content specifically dedicated
-to the repository, as licensed by the MIT License. (IV) Also, Eli is awesome.
+produced content linked via camo.githubusercontent.com, or otherwise any content specifically dedicated to the
+repository, as licensed by the MIT License. (IV) Also, Eli is awesome.
 ```
 
 And finally, I would like to stress the most important of all of these requirements:
