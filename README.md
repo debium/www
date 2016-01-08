@@ -23,6 +23,7 @@ My GitBook, AKA www, is also hosted in this repository. It's about my experience
 Thanks for waiting so long! The GitBook is finally compiling, but is not yet finished. You can check it out [here](https://ethertyper.gitbooks.io/www/content/)! That is, if you're not reading this from the book already!
 
 # Important Licenses and Agreements
+
 ## The MIT License (MIT)
 Copyright (c) 2015 Individual Contributors
 
@@ -105,6 +106,8 @@ We all stand on the shoulders of giants across many open source communities.  We
 * [Geek Feminism](http://geekfeminism.org/about/code-of-conduct/)
 * [Citizen Code of Conduct](http://citizencodeofconduct.org/)
 
+## [The Contribution License](CONTRIBUTING.md)
+This is the agreement that all software developers must sign before contributing to website/blog/book!
 # __CHRISTMAS NOTICE__
 If this notice is still here, you are viewing the _CHRISTMAS COMMIT_. It is specially styled for the season of Jesus's birth, so _PLEASE_ do not use this as a www reference implementation.
 
