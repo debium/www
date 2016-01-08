@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  xmlns:appstudio="http://schemas.microsoft.com/developer/appx/2015/appstudio" 
+  IgnorableNamespaces="uap mp appstudio">
+    		<Identity Name="b9d9c373-55a1-4507-b403-b2a6895fc498" Publisher="CN=AppStudio" Version="1.0.0.0" />
+	    <mp:PhoneIdentity PhoneProductId="738f6d5c-a7ae-4190-acaf-b63d6382aaef" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+    <Properties>
+        <DisplayName>AppStudio App</DisplayName>
+        <PublisherDisplayName>AppStudio</PublisherDisplayName>
+        <Logo>images\StoreLogo.png</Logo>
+    </Properties>
+    <Dependencies>
+        <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="10.0.10240.0" />
+    </Dependencies>
+    <Resources>
+        <Resource Language="x-generate"/>
+    </Resources>
+    <Applications>
+        <Application Id="App" StartPage="http://github.ethertyper.com/">
+            <uap:VisualElements DisplayName="WWW"
+              Description="Use this to create a Hosted Web App from scratch."
+              BackgroundColor="#00b294"
+              Square150x150Logo="images\Square150x150Logo.png"
+              Square44x44Logo="images\Square44x44Logo.png">
+                <uap:SplashScreen Image="images\SplashScreen.png" BackgroundColor="#00b294" />
+                <uap:DefaultTile Wide310x150Logo="images\Wide310x150Logo.png" Square310x310Logo="images\Square310x310Logo.png">
+                    <uap:ShowNameOnTiles>
+                        <uap:ShowOn Tile="wide310x150Logo"/>
+						<uap:ShowOn Tile="square310x310Logo" />
+                    </uap:ShowNameOnTiles>
+                </uap:DefaultTile>
+                <uap:InitialRotationPreference>
+                    <uap:Rotation Preference="landscape"/>
+                </uap:InitialRotationPreference>
+            </uap:VisualElements>
+            <uap:ApplicationContentUriRules>
+                <uap:Rule Type="include" Match="http://github.ethertyper.com/" WindowsRuntimeAccess="all"/>
+            </uap:ApplicationContentUriRules>
+        </Application>
+    </Applications>
+    <Capabilities>
+        <Capability Name="internetClient" />
+    </Capabilities>
+    <appstudio:Metadata>
+        <appstudio:Item Name="appId" Value="b9d9c373-55a1-4507-b403-b2a6895fc498" />
+        <appstudio:Item Name="model" Version="1.11" />
+        <appstudio:Item Name="formula" Value="Hwa" Version="1.11.1224.1" />
+    </appstudio:Metadata>
+</Package>
