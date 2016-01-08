@@ -10,7 +10,12 @@ One other thing is to please, if combining changes, label the commit "first chan
 And, simply to protect my legal rights, before contributing to this repository, you _**MUST**_ agree to the following legalese:
 
 ```
-I hereby agree not to rebase commits, revert branches, or otherwise irreversibly "rewrite history" before pushing to the repository "www.git". I acknowledge Eli Bradley's and other contributors' copyrights to the project, including that of bots such as the "gitter-badger". I maintain that all contributions to the repository that I produce, including in the forms of pushes, pull requests, issues, comments, any self produced content linked via camo.githubusercontent.com, or otherwise any content specifically dedicated to the repository, as licensed by the MIT License. Also, Eli is awesome.
+I hereby agree not to rebase commits, revert branches, or otherwise irreversibly "rewrite history" before
+pushing to the repository "www.git". I acknowledge Eli Bradley's and other contributors' copyrights to the
+project, including that of bots such as the "gitter-badger". I maintain that all contributions to the
+repository that I produce, including in the forms of pushes, pull requests, issues, comments, any self
+produced content linked via camo.githubusercontent.com, or otherwise any content specifically dedicated
+to the repository, as licensed by the MIT License. Also, Eli is awesome.
 ```
 
 And finally, I would like to stress the most important of all of these requirements:
