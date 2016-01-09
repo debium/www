@@ -2,6 +2,7 @@
 title: README, fellow GitHubbers!
 layout: post
 ---
+
 # www
 
 My personal GitLog, with RSS feed and all!
@@ -13,6 +14,7 @@ My personal GitLog, with RSS feed and all!
 
 #Where can I check out this wonderful repo in action? Surely, I don't have to clone it?
 You can check it out [Here](https://github.ethertyper.com)! However, if you need it on the go, you'd better clone it. Consider it as if the "gh-pages" branch was instead named "develop".
+
 #Changes to site? Suggestions?
 Just click the button in the top right are labeled "Fork", make your changes, implement your ideas, and give me a pull request. Piece of cake. Please be aware that your changes are MIT License if you commit them to this repo.
 
