@@ -19,9 +19,9 @@ Section IV: Awesomeness
 (I) I hereby agree not to rebase commits, revert branches, or otherwise irreversibly "rewrite history" before
 pushing to the repository "www.git". (II) I acknowledge Eli Bradley's and other contributors' copyrights to the
 project, including that of bots such as the "gitter-badger". (III) I maintain that all contributions to the
-repository that I produce, including in the forms of pushes, pull requests, issues, comments, any self
-produced content linked via camo.githubusercontent.com, or otherwise any content specifically dedicated to the
-repository, as licensed by the MIT License. (IV) Also, Eli is awesome.
+repository that I produce, including in the forms of pushes, pull requests, issues, comments, wiki pages, any
+self produced content linked via camo.githubusercontent.com, or otherwise any content specifically dedicated to
+the repository, as licensed by the MIT License. (IV) Also, Eli is awesome.
 ```
 
 And finally, I would like to stress the most important of all of these requirements:
