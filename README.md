@@ -1,3 +1,9 @@
+---
+title: README, fellow GitHubbers!
+layout: post
+permalink: /README.html
+---
+
 # www
 
 Eli's personal GitLog, with RSS feed and all!
