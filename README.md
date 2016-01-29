@@ -121,3 +121,6 @@ For example, the GitBook will stay, while its cover will change to exclude the C
 
 Thanks to my viewers and :octocat: for the understanding attitude,
 Eli
+
+***
+This is awesome. Is it a footer?
