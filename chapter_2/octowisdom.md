@@ -141,13 +141,13 @@ Wut. There's a ton of '\n' characters. Maybe they would show up more literally i
 Yay! It works! Partially. As you can see, we're getting _**tons**_ of nginx 301s, and the Octocat doesn't even say the full sentence. The actual identity of these 301s doesn't matter, as the trouble is not hard to figure out. If you convert it to a print statement, you can see the command that directly produced the errors, like so:
 
 ```python
->>> print('curl -s https://api.github.com/octocat?s='+commands.getoutput('curl -s https://api.github.com/zen')) 
+>>> print('curl -s https://api.github.com/octocat?s='+commands.getoutput('curl -s https://api.github.com/zen'))
 curl -s https://api.github.com/octocat?s=Practicality beats purity.
 ```
 
 Oh! It doesn't realize these spaces are part of the URL! It gets Octocat saying "Practicality", and then tries to find the data at a bunch of single word URLs. A popular encoding of spaces in URls is %20, so we could try that. But how do we switch all " "s to "%20"s?
 
-Luckily, Python has a built-in function specifically for that. String.replace(sub,other) will return an altered version of String with all instances of sub replaced by other. Let's try the code with this in mind: 
+Luckily, Python has a built-in function specifically for that. String.replace(sub,other) will return an altered version of String with all instances of sub replaced by other. Let's try the code with this in mind:
 ```python
 >>> print(commands.getoutput('curl -s https://api.github.com/octocat?s='+commands.getoutput('curl -s https://api.github.com/zen').replace(' ','%20')));
 
@@ -198,7 +198,7 @@ $ echo python Octowisdom2.py > .bash_profile
 
 It'll appear something like this:
 
-![Octowisdom on startup](../Octowisdom.png)
+![Octowisdom on startup](../images/Octowisdom.png)
 
 This just goes to show you: You _**should really**_ check your work before you continue. When I wrote the gist at first, I had to deal with download status, 301s, and incorrect newline printing all in one go. I had _**no idea**_ where to start fixing my mistakes.
 
