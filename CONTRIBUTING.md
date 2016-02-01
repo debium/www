@@ -1,9 +1,3 @@
----
-title: CONTRIBUTING!
-layout: post
-permalink: /CONTRIBUTING/index.html
----
-
 # _**CONTRIBUTING**_
 Thank you for wanting to contribute to this project! I would like to say a few things about the guidelines for contributing to www. Sadly, we need to keep conformity in your wonderful ideas to an extent. The following rules explain more clearly what is expected over any contribution, from those with official affiliations and the open source community alike.
 
