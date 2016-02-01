@@ -1,9 +1,3 @@
----
-title: README, fellow GitHubbers!
-layout: post
-permalink: /README.html
----
-
 # www
 
 Eli's personal GitLog, with RSS feed and all!
@@ -12,6 +6,7 @@ Eli's personal GitLog, with RSS feed and all!
 [![Build Status](https://travis-ci.org/debium/www.svg)](https://travis-ci.org/debium/www)
 ![License](https://img.shields.io/badge/license-MIT-red.svg)
 [![Coverage Status](https://coveralls.io/repos/EtherTyper/www/badge.svg?branch=gh-pages&service=github)](https://coveralls.io/github/EtherTyper/www?branch=gh-pages)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 #Where can I check out this wonderful repo in action? Surely, I don't have to clone it?
 You can check it out [Here](https://github.ethertyper.com)! However, if you need it on the go, you'd better clone it. Consider it as if the "gh-pages" branch was instead named "develop".
