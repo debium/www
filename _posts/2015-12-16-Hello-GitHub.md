@@ -1,5 +1,5 @@
 ---
-layout: HelloGitHub
+layout: HelloGitHub.html
 permalink: /HelloGitHub.html
 ---
 
