@@ -61,7 +61,7 @@
 			    M= M? [M[1], M[2]]: [N, navigator.appVersion,'-?'];
 			    return M;
 			}
-			document.getElementById("browser").innerHTML = document.getElementById("browser").innerHTML.substring(document.getElementById("browser").innerHTML.indexOf("</p>"))
+			document.getElementById("browser").innerHTML = document.getElementById("browser").innerHTML.substring(0,document.getElementById("browser").innerHTML.indexOf("</p>"))
 			document.getElementById("browser").innerHTML += (" even users of "+BrowserCheck()[0]+" "+BrowserCheck()[1]+"!</p>"); //returns name and number
 		</script>
 		<a href="https://github.com/debium/www/fork">
