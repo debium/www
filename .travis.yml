@@ -1,5 +1,4 @@
-- language: ruby
-# whitelist
+language: ruby
 branches:
   only:
     - gh-pages
