@@ -1,3 +1,8 @@
+---
+layout: post
+permalink: /HelloGitHub.html
+---
+
 <!-- BrowserCheck credit Michael Bleidistel !-->
 <div id="browser">
 # Hello GitHub!
