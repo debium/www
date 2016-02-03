@@ -5,7 +5,7 @@ Eli's personal GitLog, with RSS feed and all!
 [![Join the chat at https://gitter.im/debium/www](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/debium/www?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/debium/www.svg)](https://travis-ci.org/debium/www)
 ![License](https://img.shields.io/badge/license-MIT-red.svg)
-[![Coverage Status](https://coveralls.io/repos/EtherTyper/www/badge.svg?branch=gh-pages&service=github)](https://coveralls.io/github/EtherTyper/www?branch=gh-pages)
+[![Coverage Status](https://coveralls.io/repos/github/debium/www/badge.svg?branch=gh-pages)](https://coveralls.io/github/debium/www?branch=gh-pages)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 #Where can I check out this wonderful repo in action? Surely, I don't have to clone it?
