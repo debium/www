@@ -52,6 +52,20 @@
 				</span>
 			</footer>
 		</section>
+		<script>
+			function BrowserCheck() //Returns an array of [name,number]
+			{
+			    var N= navigator.appName, ua= navigator.userAgent, tem;
+			    var M= ua.match(/(opera|chrome|safari|firefox|msie|trident)\/?\s*(\.?\d+(\.\d+)*)/i);
+			    if(M && (tem= ua.match(/version\/([\.\d]+)/i))!= null) {M[2]=tem[1];}
+			    M= M? [M[1], M[2]]: [N, navigator.appVersion,'-?'];
+			    return M;
+			}
+			document.getElementById("browser").innerHTML += (" even users of "+BrowserCheck()[0]+" "+BrowserCheck()[1]+"!"); //returns name and number
+			if (screen.width>=1500){
+				document.getElementById("TEXAS").innerHTML='<p>Texas is amazing. That\'s why I made a .geojson representation of it, as shown below. It\'s hosted on the same repo as this blog here, so you can grab it by clicking the "Fork me on Github" button and then "Download ZIP". Once you extract the directory, these wonderful 328 lines of code are yours to keep, subject to the MIT License. Enjoy!</p><p><script src="https://embed.github.com/view/geojson/ethertyper/www/gh-pages/TEXAS.geojson"><\/script></p>';
+			}
+		</script>
 		<a href="https://github.com/debium/www/fork">
 			<img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/82b228a3648bf44fc1163ef44c62fcc60081495e/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png">
 		</a>
