@@ -10,7 +10,7 @@ This is a place to share ideas about anything! Need help on an Internet based pr
 </div>
 
 <script>
-	function BrowserCheck() //Returns an array of [name,number]
+	function BrowserCheck(){ //Returns an array of [name,number]
 		var N= navigator.appName, ua= navigator.userAgent, tem;
 		var M= ua.match(/(opera|chrome|safari|firefox|msie|trident)\/?\s*(\.?\d+(\.\d+)*)/i);
 		if(M && (tem= ua.match(/version\/([\.\d]+)/i))!= null) {M[2]=tem[1];}
