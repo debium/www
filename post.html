@@ -5,7 +5,7 @@ permalink: /posts
 ---
 
 <ul class="entries">
-	{% for post in site.posts %}
+	{% for post in paginator.posts %}
 	<li>
 		<a href="{{ post.url }}">
 			<h3>{{ post.title }}</h3>
