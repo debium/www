@@ -1,3 +1,5 @@
 gems:
  - jekyll-feed
  - jekyll-paginate
+paginate: 5
+paginate_path: "/posts/page:num"
