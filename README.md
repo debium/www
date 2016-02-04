@@ -1,8 +1,7 @@
 # www
-
 Eli's personal GitLog, with RSS feed and all!
 
-[![Join the chat at https://gitter.im/debium/www](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/debium/www?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/debium/www](https://badges.gitter.im/debium/www.svg)](https://gitter.im/debium/www?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/debium/www.svg)](https://travis-ci.org/debium/www)
 ![License](https://img.shields.io/badge/license-MIT-red.svg)
 [![Coverage Status](https://coveralls.io/repos/github/debium/www/badge.svg?branch=gh-pages)](https://coveralls.io/github/debium/www?branch=gh-pages)
