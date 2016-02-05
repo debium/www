@@ -9,13 +9,13 @@ Octocatsay is an imitation of cowsay from a GitHub fan, and I laughed at the pro
 
 I decided to make a simple POC type program that piped GitHub zen into Octocatsay and then printed the end result to the users. I knew that the original zen command would look something like this:
 
-```
+```shell
 $ curl https://api.github.com/zen
 ```
 
 And that the format for specifying Octocatsay messages was:
 
-```
+```shell
 $ curl https://api.github.com/octocat?s=HELLO%20WORLD
 ```
 
@@ -186,13 +186,13 @@ quit();
 
 If you want to build the Python 3 version included in [my gist](https://tinyurl.com/Octowisdom), you can now run:
 
-```
+```shell
 $ 2to3 -w Octowisdom.py && mv Octowisdom.py Octowisdom3.py && mv Octowisdom.py.bak Octowisdom2.py
 ```
 
 And you can make Octocat give you coding tips on startup by running:
 
-```
+```shell
 $ echo python Octowisdom2.py > .bash_profile
 ```
 
