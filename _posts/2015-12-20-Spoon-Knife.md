@@ -1,7 +1,7 @@
 ---
 layout: default
 title: I made a Spoon-Knife!
-paermalink: /SpoonKnife.html
+permalink: /SpoonKnife.html
 ---
 
 # I made a Spoon-Knife!
