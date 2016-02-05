@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Christmas Spirit!
-permalink: /ChristmasSpirit.md
+permalink: /ChristmasSpirit.html
 ---
 
 # Christmas Spirit!
