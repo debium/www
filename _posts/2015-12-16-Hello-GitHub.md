@@ -1,6 +1,5 @@
 ---
 layout: HelloGitHub
-permalink: /HelloGitHub.html
 title: Hello GitHub!
 ---
 
