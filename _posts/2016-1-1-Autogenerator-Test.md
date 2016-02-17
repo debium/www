@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Autogenerator Test
-permalink: /Auteogenerator.html
+permalink: /Autogenerator.html
 ---
 
 # Autogenerator Test
