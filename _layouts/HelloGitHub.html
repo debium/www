@@ -13,7 +13,6 @@ layout: default
 			M= M? [M[1], M[2]]: [N, navigator.appVersion,'-?'];
 			return M;
 		}
-		document.getElementById("browser").innerHTML = document.getElementById("browser").innerHTML.substring(0,document.getElementById("browser").innerHTML.indexOf("</p>"));
-		document.getElementById("browser").innerHTML += (" even users of "+BrowserCheck()[0]+" "+BrowserCheck()[1]+"!</p>"); //returns name and number
+		document.getElementById("browser").innerHTML = document.getElementById("browser").innerHTML.substring(0,document.getElementById("browser").innerHTML.indexOf("you!"))+"users of "+BrowserCheck()[0]+" "+BrowserCheck()[1]+"!</p>";
 	</script>
 </div>
