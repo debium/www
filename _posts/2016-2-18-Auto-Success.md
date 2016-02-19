@@ -22,4 +22,4 @@ The ["autogenerator"]({% post_url 2016-1-1-Autogenerator-Test.md %}) worked for 
 
 I initially wanted to show this post for example of the new theme, but to prevent codeception, I'll show the Autogenerator post that proposed these changes:
 
-<iframe src="{% 2016-1-1-Autogenerator-Test.md %}"></iframe>
+<iframe src="{% post_url 2016-1-1-Autogenerator-Test.md %}"></iframe>
