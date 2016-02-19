@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Auto Success
-permalink: /AutoSuccess
+permalink: /AutoSuccess.html
 ---
 
 # Auto Success
