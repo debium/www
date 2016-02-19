@@ -5,7 +5,7 @@ permalink: /AutoSuccess.html
 ---
 
 # Auto Success
-The ["autogenerator"]({% post_url 2016-1-1-Autogenerator-Test.md %}) worked for @jasonlong's Cayman theme, as presented in the blog your reading, but what you see on the surface is not the end of it. I've moved the entireity of the blog to jekyll posting inheritance model of layouts for static site generation, including errors, posts, and even other layouts, thanks to the work of @pietromenna. The end hierarchy looks something like this:
+The ["autogenerator"]({% post_url 2016-1-1-Autogenerator-Test %}) worked for @jasonlong's Cayman theme, as presented in the blog your reading, but what you see on the surface is not the end of it. I've moved the entireity of the blog to jekyll posting inheritance model of layouts for static site generation, including errors, posts, and even other layouts, thanks to the work of @pietromenna. The end hierarchy looks something like this:
 - default
   - Auto Success
   - Autogenerator Test
@@ -22,4 +22,4 @@ The ["autogenerator"]({% post_url 2016-1-1-Autogenerator-Test.md %}) worked for 
 
 I initially wanted to show this post for example of the new theme, but to prevent codeception, I'll show the Autogenerator post that proposed these changes:
 
-<iframe src="{% post_url 2016-1-1-Autogenerator-Test.md %}"></iframe>
+<iframe src="{% post_url 2016-1-1-Autogenerator-Test %}"></iframe>
