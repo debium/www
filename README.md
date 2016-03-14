@@ -6,6 +6,7 @@ Eli's personal GitLog, with RSS feed and all!
 ![License](https://img.shields.io/badge/license-MIT-red.svg)
 [![Coverage Status](https://coveralls.io/repos/github/debium/www/badge.svg?branch=gh-pages)](https://coveralls.io/github/debium/www?branch=gh-pages)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[![Stack Share](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](http://stackshare.io/EtherTyper/debium-stack)
 
 #Where can I check out this wonder in action?
 You can check it out [Here](https://github.ethertyper.com)! However, if you need it on the go, you'd better clone it. Consider it as if the "gh-pages" branch was instead named "develop". The site is in rapid development in preparation of the Easter Update. :rabbit2: :egg: :rainbow:
