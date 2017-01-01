@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/ethertyper
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://github.ethertyper.com
+  * I am ethertyper (https://keybase.io/ethertyper) on keybase.
+  * I have a public key ASAg-5R95LiOh1MA_DZ7G9a8xqZtOwsNGmi6zYqFpWmw8Ao
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101b110cb8ba990857ac137e2919a29b0e455000fde83f4b911790307f71d975d740a",
+            "host": "keybase.io",
+            "kid": "012020fb947de4b88e875300fc367b1bd6bcc6a66d3b0b0d1a68bacd8a85a569b0f00a",
+            "uid": "3d60a8422edff4003f76fce424aa0219",
+            "username": "ethertyper"
+        },
+        "service": {
+            "hostname": "github.ethertyper.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1483313244,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1483313198,
+        "hash": "f1fe29c4ad532a127fb880ca6444c29540a8ad611c3576c5fb333f672b868495437aed6b424049087acf4c88aea4441e007d16908c951ebf6b13d9b1d6e21abb",
+        "seqno": 781329
+    },
+    "prev": "62fa01f26c78540679a2da59d72f6a8b09832a356621f26b69154989716ef4e3",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgIPuUfeS4jodTAPw2exvWvMambTsLDRpous2KhaVpsPAKp3BheWxvYWTFAv57ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxYjExMGNiOGJhOTkwODU3YWMxMzdlMjkxOWEyOWIwZTQ1NTAwMGZkZTgzZjRiOTExNzkwMzA3ZjcxZDk3NWQ3NDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMjBmYjk0N2RlNGI4OGU4NzUzMDBmYzM2N2IxYmQ2YmNjNmE2NmQzYjBiMGQxYTY4YmFjZDhhODVhNTY5YjBmMDBhIiwidWlkIjoiM2Q2MGE4NDIyZWRmZjQwMDNmNzZmY2U0MjRhYTAyMTkiLCJ1c2VybmFtZSI6ImV0aGVydHlwZXIifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImdpdGh1Yi5ldGhlcnR5cGVyLmNvbSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTgifSwiY3RpbWUiOjE0ODMzMTMyNDQsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ4MzMxMzE5OCwiaGFzaCI6ImYxZmUyOWM0YWQ1MzJhMTI3ZmI4ODBjYTY0NDRjMjk1NDBhOGFkNjExYzM1NzZjNWZiMzMzZjY3MmI4Njg0OTU0MzdhZWQ2YjQyNDA0OTA4N2FjZjRjODhhZWE0NDQxZTAwN2QxNjkwOGM5NTFlYmY2YjEzZDliMWQ2ZTIxYWJiIiwic2Vxbm8iOjc4MTMyOX0sInByZXYiOiI2MmZhMDFmMjZjNzg1NDA2NzlhMmRhNTlkNzJmNmE4YjA5ODMyYTM1NjYyMWYyNmI2OTE1NDk4OTcxNmVmNGUzIiwic2Vxbm8iOjgsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAQ+G2B5qbtUfEZ8m/5bQ4Z6TZJPbXsT3MPBnid2mC3g1REFlcsCjd2gt1+PI4Yo3T1yTB+3qo/WGeFzfNTgI4DahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAuPGtVhFArthu3icY4wXw0Q1NmzHXHPgujjTR7evNY9o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ethertyper
+
+==================================================================
